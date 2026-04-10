@@ -1,0 +1,100 @@
+here<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>أحلى طعمية في بدر</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {font-family: 'Cairo', sans-serif;}
+    .hero {
+      background:url('falafel.jpg') center/cover no-repeat;
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+      position: relative;
+    }
+    .hero::after {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0,0,0,0.6);
+    }
+    .hero-content {position: relative; z-index: 2;}
+    .btn-whatsapp {
+      background: #25D366;
+      color: white;
+      font-size: 20px;
+      padding: 12px 25px;
+      border-radius: 30px;
+    }
+    .menu-item {border-bottom: 1px solid #eee; padding: 10px 0;}
+    .testimonial {background: #f8f9fa; padding: 15px; border-radius: 10px;}
+  </style>
+</head>
+<body>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="hero-content">
+     <h1 class="display-5 fw-bold"> محمد للطعمية </h1> 
+     <br>
+    <h1 class="display-5 fw-bold">🔥 أحلى طعمية في بدر 🔥</h1>
+    <p class="lead">طعم أصلي + قرمشة مميزة + توصيل سريع</p>
+    <a href="https://wa.me/249998942350?text=عايز اطلب طعمية" target="_blank" class="btn btn-whatsapp mt-3">اطلب الآن على واتساب</a>
+  </div>
+</section>
+
+<!-- Menu -->
+<section class="container my-5">
+  <h2 class="text-center mb-4">🍽️ المنيو</h2>
+   <div class="menu-item d-flex justify-content-between">
+    <span> 🥙 طبق البطاطس</span>
+    <span>5 جنيه</span>
+  </div>
+  <div class="menu-item d-flex justify-content-between">
+    <span>🥙 ساندوتش طعمية</span>
+    <span>10 جنيه</span>
+  </div>
+  <div class="menu-item d-flex justify-content-between">
+    <span>🌯 طعمية بالبيض</span>
+    <span>15 جنيه</span>
+  </div>
+  <div class="menu-item d-flex justify-content-between">
+    <span>🧆 طبق طعمية 8حبة</span>
+    <span>10 جنيه</span>
+  </div>
+</section>
+
+<!-- Images -->
+<section class="container my-5">
+  <h2 class="text-center mb-4">📸 صور من المحل</h2>
+  <div class="row">
+    <div class="col-md-4"><img src="https://images.unsplash.com/photo-1550547660-d9450f859349" class="img-fluid rounded"></div>
+    <div class="col-md-4"><img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe" class="img-fluid rounded"></div>
+    <div class="col-md-4"><img src="https://images.unsplash.com/photo-1604908177522-0401f8cbe1c6" class="img-fluid rounded"></div>
+  </div>
+</section>
+
+<!-- Testimonials -->
+<section class="container my-5">
+  <h2 class="text-center mb-4">⭐ آراء الزباين</h2>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="testimonial">⭐⭐⭐⭐⭐<br>"أنضف طعمية في بدر"</div>
+    </div>
+    <div class="col-md-6">
+      <div class="testimonial">⭐⭐⭐⭐⭐<br>"طعم رهيب والتوصيل سريع"</div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section class="container text-center my-5">
+  <h2>📍 العنوان</h2>
+  <p>بدر - الحي الثالث-هايبر الاصدقاء</p>
+  <a href="https://wa.me/249998942350?text=عايز اطلب" class="btn btn-whatsapp">اطلب الآن</a>
+</section>
+
+</body>
+</html>
